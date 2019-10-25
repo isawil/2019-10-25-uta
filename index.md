@@ -78,8 +78,7 @@ displayed if the 'eventbrite' field in the header is not set.
 {% comment %}
 INTRODUCTION
 
-Edit the general explanatory paragraph below if you want to change
-the pitch.
+This is a workshop designed to teach introductory data skills to researchers!
 {% endcomment %}
 {% if site.carpentry == "swc" %}
 {% include swc/intro.html %}
@@ -92,8 +91,7 @@ the pitch.
 {% comment %}
 AUDIENCE
 
-Explain who your audience is.  (In particular, tell readers if the
-workshop is only open to people from a particular institution.
+Students, faculty, staff, and members of the public are all welcome to attend! You do not need to be a data scientist to attend.
 {% endcomment %}
 {% if site.carpentry == "swc" %}
 {% include swc/who.html %}
